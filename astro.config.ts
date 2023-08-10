@@ -4,7 +4,8 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import prefetch from "@astrojs/prefetch";
 import remarkUnwrapImages from "remark-unwrap-images";
-import vercel from "@astrojs/vercel/edge";
+
+import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
@@ -38,7 +39,6 @@ export default defineConfig({
 			exclude: ["@resvg/resvg-js"],
 		},
 	},
-	adapter: vercel({
-		analytics: true,
-	}),
+	adapter: vercel({ analytics: true }),
+	output: "server",
 });
