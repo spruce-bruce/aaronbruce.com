@@ -7,7 +7,6 @@
 		"sync": "astro sync",
 		"check": "astro check",
 		"build": "astro build",
-		"postbuild": "pagefind --source dist",
 		"preview": "astro preview",
 		"format": "prettier -w --plugin-search-dir=. --cache ."
 	},
@@ -45,7 +44,9 @@
 	"dependencies": {
 		"@astrojs/prefetch": "^0.2.3",
 		"@astrojs/rss": "^2.4.3",
-		"astro": "2.7.1",
+		"@astrojs/vercel": "^3.8.0",
+		"@vercel/analytics": "^1.0.2",
+		"astro": "^2.10.5",
 		"satori": "0.10.1",
 		"satori-html": "^0.3.2",
 		"sharp": "^0.32.0"
