@@ -56,11 +56,11 @@ include:
   - name: NestingDepthJS
   - name: UnnecessaryLocalVariableJS
   - name: TrivialConditionalJS
-  ```
+```
 
 ## Progressive Improvement
 
-Qodana has an important "baseline" feature. This will allow you to add qodana to your project today and cause it to fail your CI build without forcing you to fix every problem in your whole code base _today_. Once you've done your first scan you can mark all the problems Qodana findes as your "baseline".
+Qodana has an important "baseline" feature. This will allow you to add qodana to your project today and cause it to fail your CI build without forcing you to fix every problem in your whole code base _today_. Once you've done your first scan you can mark all the problems Qodana finds as your "baseline".
 
 With Qodana's baseline feature your build won't fail due to the known problems, but it _will_ fail if any new problems are added. Critically the baseline problems aren't _ignored_, they're just moved over into a baseline tab and you and your team can fix them incrementally. Do like 5 a week or something.
 
