@@ -30,6 +30,8 @@ I believe very strongly that any quality automation must be enforced by CI tooli
 
 Qodana makes it pretty easy to do that. I use Github Actions, and integrating qodana scans into my checks was fairly easy all told. I did have a problem [getting data into their cloud platform](https://youtrack.jetbrains.com/issue/QD-6600/Project-still-waiting-for-data-after-successful-run-in-CI), but that's another story.
 
+## Adding Inspections
+
 ## My issues
 
 I had some issues ranging from minor to major getting Qodana set up and running in my project(s). I filed them in the public Qodana youtrack so you can read them if you're interested. 
@@ -40,3 +42,9 @@ You can judge for yourself how much was my fault versus theirs, but if you ask m
 - [Dumb GHA config error that took me forever to solve](https://youtrack.jetbrains.com/issue/QD-6797/Qodana-failing-in-CI-on-simple-java-spring-project)
 - [Misconfiguration prevented results from being uploaded to Qodana cloud.](https://youtrack.jetbrains.com/issue/QD-6600/Project-still-waiting-for-data-after-successful-run-in-CI) I still don't understand what I did wrong here. The fix was simple, but I don't know yet how I was supposed to know on my own to do it.
 - [I don't like this error and I couldn't figure out how to suppress it.](https://youtrack.jetbrains.com/issue/QD-6768/It-is-not-a-problem-Unused-constructor-constructor)
+
+## Conclusion
+
+So far I quite like Qodana. I like the way it installs and integrates into a project, even though I wound up having a lot of trouble. I'm pretty willing to give them a pass on that considering it's so new, and the price really can't be beat.
+
+I want to follow up on Qodana in another post and get into the details of the code quality checks it has available and how useful I find them.
