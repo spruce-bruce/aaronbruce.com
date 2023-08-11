@@ -6,6 +6,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import SkipLink from "@/components/SkipLink";
 import { siteConfig } from "@/site-config";
+import { GoogleAnalytics } from 'astro-google-analytics';
+
 
 interface Props {
 	meta: SiteMeta;
@@ -19,6 +21,7 @@ const {
 <html lang={siteConfig.lang}>
 	<head>
 		<BaseHead title={title} description={description} ogImage={ogImage} articleDate={articleDate} />
+		<GoogleAnalytics id="G-2RQ3GED7YE" />
 	</head>
 	<body>
 		<ThemeProvider />
