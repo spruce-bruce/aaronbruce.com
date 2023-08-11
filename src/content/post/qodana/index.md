@@ -32,6 +32,33 @@ Qodana makes it pretty easy to do that. I use Github Actions, and integrating qo
 
 ## Adding Inspections
 
+![More Problems Detectedd](./but-wait-theres-more.png)
+
+When you first configure Qodana it'll seem pretty bare bones. When you first set it up you'll pick a "linter" based on your project's language. In my case, I was using the `jetbrains/qodana-js:2023.2` linter. It will run eslint for you, and the bare linter includes some other decent quality inspections.
+
+[!Import can be shortened warning](./import-can-be-shortened.png)
+
+If you're just using the bare bones linter qodana will probably wind up showing you their "but wait there's more!" dialog. It turns out there are a lot of extra inspections available that are off by default. If qodana detects problems that those inspections would catch it'll recommend you turn them on.
+
+
+Here's my current config with all the inspections I've opted into:
+```yaml
+version: "1.0"
+linter: jetbrains/qodana-js:2023.2
+include:
+  - name: TrivialIfJS
+  - name: DuplicatedCode
+  - name: ParametersPerFunctionJS
+  - name: FunctionWithMultipleLoopsJS
+  - name: ThreeNegationsPerFunctionJS
+  - name: FunctionWithMultipleReturnPointsJS
+  - name: CyclomaticComplexityJS
+  - name: StatementsPerFunctionJS
+  - name: NestingDepthJS
+  - name: UnnecessaryLocalVariableJS
+  - name: TrivialConditionalJS
+  ```
+
 ## My issues
 
 I had some issues ranging from minor to major getting Qodana set up and running in my project(s). I filed them in the public Qodana youtrack so you can read them if you're interested. 
