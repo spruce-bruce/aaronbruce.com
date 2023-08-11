@@ -32,7 +32,9 @@ Qodana makes it pretty easy to do that. I use Github Actions, and integrating qo
 
 ## My issues
 
-I had some issues ranging from minor to major getting Qodana set up and running in my project(s). I filed them in the public Qodana youtrack so you can read them if you're interested. You can judge for yourself how much was my fault versus theirs, but if you ask me I think there's missing documentation and UX that, if present, would have prevented me from getting hung up on this stuff for weeks.
+I had some issues ranging from minor to major getting Qodana set up and running in my project(s). I filed them in the public Qodana youtrack so you can read them if you're interested. 
+
+You can judge for yourself how much was my fault versus theirs, but if you ask me I think there's missing documentation and UX that, if present, would have prevented me from getting hung up on this stuff for weeks.
 
 - [Couldn't create my projects in qodana cloud when I first signed up](https://youtrack.jetbrains.com/issue/QD-6560/Error-creating-team-during-free-trial)
 - [Dumb GHA config error that took me forever to solve](https://youtrack.jetbrains.com/issue/QD-6797/Qodana-failing-in-CI-on-simple-java-spring-project)
