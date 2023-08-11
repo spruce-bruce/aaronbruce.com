@@ -47,6 +47,7 @@
 		"@astrojs/vercel": "^3.8.0",
 		"@vercel/analytics": "^1.0.2",
 		"astro": "^2.10.5",
+		"astro-google-analytics": "^1.0.3",
 		"satori": "0.10.2",
 		"satori-html": "^0.3.2",
 		"sharp": "^0.32.0"
