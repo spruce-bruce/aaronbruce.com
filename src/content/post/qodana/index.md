@@ -58,7 +58,7 @@ include:
   - name: TrivialConditionalJS
   ```
 
-## Baseline
+## Progressive Improvement
 
 Qodana has an important "baseline" feature. This will allow you to add qodana to your project today and cause it to fail your CI build without forcing you to fix every problem in your whole code base _today_. Once you've done your first scan you can mark all the problems Qodana findes as your "baseline".
 
