@@ -5,8 +5,6 @@ description: "I've been trialing qodana for a couple of weeks and here are my th
 tags: ["tools", "CI"]
 ---
 
-# Qodana: Static Analysis by Jetbrains
-
 Qodana is a new code quality tool built by the folks over at JetBrains. They just [announced in July](https://blog.jetbrains.com/qodana/2023/07/qodana-is-out-of-preview-with-first-class-jetbrains-ide-integration/) that it is publicly available. I have a lot of respect for the JetBrains folks, so I've been spending some time trying it out.
 
 ## Pricing
