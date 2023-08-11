@@ -36,7 +36,7 @@ Qodana makes it pretty easy to do that. I use Github Actions, and integrating qo
 
 When you first configure Qodana it'll seem pretty bare bones. When you first set it up you'll pick a "linter" based on your project's language. In my case, I was using the `jetbrains/qodana-js:2023.2` linter. It will run eslint for you, and the bare linter includes some other decent quality inspections.
 
-[!Import can be shortened warning](./import-can-be-shortened.png)
+![Import can be shortened warning](./import-can-be-shortened.png)
 
 If you're just using the bare bones linter qodana will probably wind up showing you their "but wait there's more!" dialog. It turns out there are a lot of extra inspections available that are off by default. If qodana detects problems that those inspections would catch it'll recommend you turn them on.
 
