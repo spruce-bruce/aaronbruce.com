@@ -1,7 +1,7 @@
 ---
 title: "Qodana: Static Analysis by Jetbrains"
 publishDate: "August 10, 2023"
-description: "I've been trilaing qodana for a couple of weeks and here are my thoughts"
+description: "I've been trialing qodana for a couple of weeks and here are my thoughts"
 tags: ["tools", "CI"]
 ---
 
