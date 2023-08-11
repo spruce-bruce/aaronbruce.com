@@ -79,4 +79,4 @@ You can judge for yourself how much was my fault versus theirs, but if you ask m
 
 So far I quite like Qodana. I like the way it installs and integrates into a project, even though I wound up having a lot of trouble. I'm pretty willing to give them a pass on that considering it's so new, and the price really can't be beat.
 
-I want to follow up on Qodana in another post and get into the details of the code quality checks it has available and how useful I find them.
+Next steps for me and Qodana will be to trial it with one of our teams. I want to see if they find the checks useful, and I want to see if they can really chip away at the baseline problems. I'll follow up with a new post when I know the answers!
