@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aaronbruce.com/sitemap-index.xml
+Sitemap: https://www.aaronbruce.com/sitemap-index.xml

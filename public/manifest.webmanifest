@@ -1,7 +1,7 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
+	"name": "Aaron Bruce | Thinking Out Loud",
+	"short_name": "Aaron_Bruce",
+	"description": "A collection of thoughs and posts on software engineering and management",
 	"icons": [
 		{
 			"src": "/192x192.png",

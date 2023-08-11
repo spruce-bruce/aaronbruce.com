@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
 	title: "Aaron Bruce | aaronbruce.com",
 	// Meta property used as a default description meta property
-	description: "A messy collection of posts",
+	description: "Thinking Out Loud | A messy collection of posts",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "en-US",
 	// Meta property, found in src/components/BaseHead.astro L:42
