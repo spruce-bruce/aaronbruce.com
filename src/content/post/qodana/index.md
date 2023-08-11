@@ -34,12 +34,11 @@ Qodana makes it pretty easy to do that. I use Github Actions, and integrating qo
 
 ![More Problems Detectedd](./but-wait-theres-more.png)
 
-When you first configure Qodana it'll seem pretty bare bones. When you first set it up you'll pick a "linter" based on your project's language. In my case, I was using the `jetbrains/qodana-js:2023.2` linter. It will run eslint for you, and the bare linter includes some other decent quality inspections.
+When you first configure Qodana it'll seem pretty bare bones. At first you'll pick a "linter" based on your project's language. In my case, I was using the `jetbrains/qodana-js:2023.2` linter. It will run eslint for you, and the bare linter includes some other decent quality inspections.
 
 ![Import can be shortened warning](./import-can-be-shortened.png)
 
 If you're just using the bare bones linter qodana will probably wind up showing you their "but wait there's more!" dialog. It turns out there are a lot of extra inspections available that are off by default. If qodana detects problems that those inspections would catch it'll recommend you turn them on.
-
 
 Here's my current config with all the inspections I've opted into:
 ```yaml
@@ -58,6 +57,12 @@ include:
   - name: UnnecessaryLocalVariableJS
   - name: TrivialConditionalJS
   ```
+
+## Baseline
+
+Qodana has an important "baseline" feature. This will allow you to add qodana to your project today and cause it to fail your CI build without forcing you to fix every problem in your whole code base _today_. Once you've done your first scan you can mark all the problems Qodana findes as your "baseline".
+
+With Qodana's baseline feature your build won't fail due to the known problems, but it _will_ fail if any new problems are added. Critically the baseline problems aren't _ignored_, they're just moved over into a baseline tab and you and your team can fix them incrementally. Do like 5 a week or something.
 
 ## My issues
 
