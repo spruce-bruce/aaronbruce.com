@@ -28,7 +28,7 @@ When your scan is complete it starts a local webserver that hosts your results.
 
 I believe very strongly that any quality automation must be enforced by CI tooling. If you have some linting, formatting or other quality rules to enforce the ONLY way to enforce them is with CI tooling. Quality checks failing should break your build.
 
-Qodana makes it pretty easy to do that. I use Github Actions, and integrating qodana scans into my checks was fairly easy all told. I did have a problem [getting data into their cloud platform](https://youtrack.jetbrains.com/issue/QD-6600/Project-still-waiting-for-data-after-successful-run-in-CI), though.
+Qodana makes it pretty easy to do that. I use Github Actions, and integrating qodana scans into my checks was fairly easy all told. I did have a problem [getting data into their cloud platform](https://youtrack.jetbrains.com/issue/QD-6600/Project-still-waiting-for-data-after-successful-run-in-CI), but that's another story.
 
 ## My issues
 
