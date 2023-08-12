@@ -35,6 +35,7 @@ The reason that there is so much skepticism about documentation in the software 
 1. Be very skeptical of documenting things that change frequently. Code documentation like comment blocks fall into this category. Code should still be self-describing and relying too much on comments is very frequently a smell. This kind of documentation very frequently winds up out of date and wrong, and wrong documentation is worse than no documentation.
 
 ## Resources
+
 I've been reading a lot of Will Larson lately, so what follows is mostly a ton of links to blog posts he's written that touch of the subject of documentation.
 
 - https://lethain.com/discouraging-perfection/
@@ -47,5 +48,5 @@ I've been reading a lot of Will Larson lately, so what follows is mostly a ton o
 - https://www.idaszak.com/posts/stop-knowledge-loss/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20200&utm_medium=email
 
 ---
+
 Header photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Grey</a> on <a href="https://unsplash.com/photos/tn57JI3CewI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  

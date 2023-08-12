@@ -36,7 +36,6 @@ Having everybody's work merged to main continuously makes that work available to
 
 This isn't the only, or even best, take on why CI is good. Check out Dave Farley's [video on Continuous Integration](https://www.youtube.com/watch?v=lXQEi1O5IOI&ab_channel=ContinuousDelivery) for more!
 
-___
+---
 
 Header photo by <a href="https://unsplash.com/@lg17?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lance Grandahl</a> on <a href="https://unsplash.com/photos/nShLC-WruxQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
