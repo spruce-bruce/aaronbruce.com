@@ -10,7 +10,7 @@ coverImage:
 
 ## On the Subject of Documentation
 
-I have never in my career worked on systems that had good documentation, I've tend to believe that less is more when it comes to documentation. I still believe that, but I do believe there's a lot of missing nuance if you shut down a conversation about documentation with that line.
+I have never in my career worked on systems that were well documented, and I was taught to believe that less is more when it comes to documentation. I still believe that's true, but I do believe there's a lot of missing nuance if you shut down a conversation about documentation with that line. I'm worried that as an industry we've taken the rejection of documentation too far.
 
 Effective documentation has become more interesting to me since [Synapse](https://synapsestudios.com) has both grown and gone fully remote. Especially as a manager, it's becoming more and more obvious that we need to modify our internal communication strategy to include much more written docs.
 
