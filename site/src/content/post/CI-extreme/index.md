@@ -18,7 +18,7 @@ Unfortunatly, Continuous Integration has a fuzzy definition these days. For this
 
 > Thus in CI developers integrate all their work into trunk (also known as mainline or master) on a regular basis (at least daily). A set of automated tests is run both before and after the merge to validate that no regressions are introduced. If these automated tests fail, the team stops what they are doing and someone fixes the problem immediately.
 
-_- Jez Humble, [Continuous Delivery](https://continuousdelivery.com/foundations/continuous-integration/)_
+_- Jez Humble, [continuousdelivery.com](https://continuousdelivery.com/foundations/continuous-integration/)_
 
 ## An Extreme Example - Moving to Monorepo
 
