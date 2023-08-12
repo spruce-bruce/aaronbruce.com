@@ -10,7 +10,7 @@ coverImage:
 
 ## Defining Continuous Integration
 
-Unfortunatly, Continuous Integration has a fuzzy definition these days. For this piece I'm using the intended orignal defintion. Continuous Integration requires that:
+Unfortunatly, Continuous Integration has a fuzzy definition these days. For this piece I'm using the orignal defintion. Continuous Integration requires that:
 
 1. Everyone contributing code merges into main at least once a day. Many more times than once is better.
 1. Automated tests run before and after merge.
