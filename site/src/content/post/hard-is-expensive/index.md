@@ -1,14 +1,11 @@
 ---
 title: "Hard Means Expensive"
 publishDate: "August 16, 2023"
-description: "stubstubstubstubstubstubstubstubstubstubstubstubstubstubstubstubstubstub"
-tags: ["management"]
-# coverImage:
-#   src: "./header.jpg"
-#   alt: "A pile of messy binders"
+description: "If something is hard to work on then that means it's expensive. Use this mental model of software systems to translate quality priorities into business priorities."
+tags: ["management", "quality"]
 ---
 
-Expensive == Difficult == Slow. These are all proxies for one another. Think of them as synonyms almost. Your system is expensive if it's difficult to work on. A feature is expensive if it takes a long time to build.
+Expensive == Slow == Difficult. These are all proxies for one another. Think of them as synonyms almost. Your system is expensive if it's difficult to work on. A feature is expensive if it takes a long time to build.
 
 It might not feel like a major revelation, and it shouldn't be, but I advise new engineering leaders to adopt this model to help them communicate with their management, and I use this model when I speak with executives to explain investments in non-functional qualities of systems.
 
