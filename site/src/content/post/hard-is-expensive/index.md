@@ -15,7 +15,7 @@ Our biggest cost in software engineering is almost always the salaries of the pe
 
 ## Slow
 
-So if paying developers is costly, then developers' time is valuable. If something takes longer to do, then it's more expensive. (There are other reasons to value speed besides simply cost, but for this post I'm focusing on cost.) That's probably fairly obvious, but there's an important next logical step that I don't often see made: low quality systems cost more.
+So if paying developers is costly, then developers' time is valuable. If something takes longer to do, then it's more expensive.  That's probably fairly obvious, but there's an important next logical step that I don't often see made: low quality systems cost more.
 
 If you're a fan of [Continuous Delivery](https://continuousdelivery.com/), [DORA](dora.dev), or [Dave Farley](https://www.youtube.com/@ContinuousDelivery) you probably know what I'm getting at already. It takes longer to modify systems and modules that are poorly designed. To use a phrase from [Martin Fowler](https://martinfowler.com/bliki/TechnicalDebt.html), Healthy systems accumulate "deficiencies in internal quality" over time that make changes to those systems slower. Worse yet, many systems are designed poorly from the very beginning.
 
@@ -29,4 +29,6 @@ If a system, subsystem or feature are hard to change, then **it takes longer to 
 
 **Expensive == Slow == Difficult**
 
-Development teams should be able to spend 20% of their time working on improving their systems by making it easier to work on them. Realize that you can justify this work by explaining that it's cost saving AND time saving simultaneously! If you're talking to the CFO explain that if you invest in making it easier to work on systems then the ROI for those systems will be higher. If you're talking to the Director of Product explain that investing in the internal quality of the system will make fast delivery a sustainable feature of the system.
+Development teams should be able to spend 20% of their time working on improving their systems by making it easier to work on them. Realize that you can justify this work by explaining that it's cost saving AND time saving simultaneously! 
+
+If you're talking to the CFO explain that if you invest in making it easier to work on systems then the ROI for those systems will be higher. If you're talking to the Director of Product explain that investing in the internal quality of the system will make fast delivery a sustainable feature of the system.
