@@ -31,4 +31,4 @@ If a system, subsystem or feature is hard to change, then **it takes longer to c
 
 Development teams should be able to spend 20% of their time on improving their systems by making it easier to work on them. You can justify this work by explaining that it's cost saving AND time saving simultaneously!
 
-If you're talking to the CFO, explain that if you invest in making it easier to work on systems then the ROI for those systems will be higher. If you're talking to the Director of Product, explain that investing in the internal quality of the system will make fast delivery a sustainable feature of the system.
+If you're talking to the CFO, explain that if you invest in making it easier to work on systems then the ROI for those systems will be higher. If you're talking to the Director of Product, explain that investing in the internal quality of the system will make fast delivery a sustainable feature of that system.
