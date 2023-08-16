@@ -30,6 +30,8 @@ I believe very strongly that any quality automation must be enforced by CI tooli
 
 Qodana makes it pretty easy to do that. I use Github Actions, and integrating qodana scans into my checks was fairly easy all told. I did have a problem [getting data into their cloud platform](https://youtrack.jetbrains.com/issue/QD-6600/Project-still-waiting-for-data-after-successful-run-in-CI), but that's another story.
 
+A major plus for Qodana is that it doesn't try and run your work load for you. I believe this is why their price can be so low. Similar tools like Snyk or SonarQube will hook into your PRs and run scans in their cloud, which I hate. Qodana does it right. You run qodana either directly with their CLI, or quite easily with some community plugin or action, right in your pipeline tool of choice.
+
 ## Adding Inspections
 
 ![More Problems Detectedd](./but-wait-theres-more.png)
@@ -57,6 +59,26 @@ include:
   - name: NestingDepthJS
   - name: UnnecessaryLocalVariableJS
   - name: TrivialConditionalJS
+```
+
+Importantly, you can also exclude code from these inspections. You can add a file to an excludes block in your qodana.yml, or for one off exclusions you can use their inline `noinspection` comment.
+
+Excluding a path for a specific inspection:
+```yaml
+exclude:
+  - name: JSUnusedLocalSymbols
+    paths:
+      - path/to/file.ts
+```
+
+Excluding a class from a specific inspection:
+```ts
+// noinspection JSUnusedLocalSymbols
+export class Example {
+    private constructor() {
+        /* noop */
+    }
+}
 ```
 
 ## Progressive Improvement
