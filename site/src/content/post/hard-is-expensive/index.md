@@ -4,7 +4,7 @@ publishDate: "August 16, 2023"
 description: "Use this mental model of software systems to translate quality priorities into business priorities."
 tags: ["management", "quality"]
 ---
-
+---
 Expensive == Slow == Difficult. These are all proxies for one another. Think of them as synonyms almost. Your system is expensive if it's difficult to work on. A feature is expensive if it takes a long time to build.
 
 It might not feel like a major revelation, and it shouldn't be, but I advise new engineering leaders to adopt this model to help them communicate with their management, and I use this model when I speak with executives to explain investments in non-functional qualities of systems.
