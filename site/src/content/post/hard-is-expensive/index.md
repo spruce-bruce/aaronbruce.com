@@ -15,7 +15,7 @@ Our biggest cost in software engineering is almost always the salaries of the pe
 
 ## Slow
 
-So if paying developers is costly, then developers' time is valuable. If something takes longer to do, then it's more expensive. There are other reasons to value speed besides simply cost, but for this post I'm focusing on cost. That's probably fairly obvious, but there's an important next logical step that I don't often see made: low quality systems cost more.
+So if paying developers is costly, then developers' time is valuable. If something takes longer to do, then it's more expensive. (There are other reasons to value speed besides simply cost, but for this post I'm focusing on cost.) That's probably fairly obvious, but there's an important next logical step that I don't often see made: low quality systems cost more.
 
 If you're a fan of [Continuous Delivery](https://continuousdelivery.com/), [DORA](dora.dev), or [Dave Farley](https://www.youtube.com/@ContinuousDelivery) you probably know what I'm getting at already. It takes longer to modify systems and modules that are poorly designed. To use a phrase from [Martin Fowler](https://martinfowler.com/bliki/TechnicalDebt.html), Healthy systems accumulate "deficiencies in internal quality" over time that make changes to those systems slower. Worse yet, many systems are designed poorly from the very beginning.
 
