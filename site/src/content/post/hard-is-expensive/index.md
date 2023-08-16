@@ -23,7 +23,7 @@ If you're a fan of [Continuous Delivery](https://continuousdelivery.com/), [DORA
 
 Unfortunately, speed is a lagging indicator. If you're a developer one of the most important signals you should pay attention to is how easy or hard something is to change. If you ask a developer to talk through the parts of their system that are difficult to work on, they will be able to produce an absolute unit of a _list_ of stuff. They will be able to rank those challenges from hardest to easiest.
 
-If a system, subsystem or feature are hard to change, then **it takes longer to change them** and therefore it's **more expensive**. Lower quality systems are harder to change, therefore the cost of ownership for lower quality systems is higher.
+If a system, subsystem or feature is hard to change, then **it takes longer to change them** and therefore it's **more expensive**. Lower quality systems are harder to change, therefore the cost of ownership for lower quality systems is higher.
 
 ## Using the Model
 
