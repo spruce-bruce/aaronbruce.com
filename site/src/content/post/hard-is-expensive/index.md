@@ -1,7 +1,7 @@
 ---
 title: "Hard Means Expensive"
 publishDate: "August 16, 2023"
-description: "If something is hard to work on then that means it's expensive. Use this mental model of software systems to translate quality priorities into business priorities."
+description: "Use this mental model of software systems to translate quality priorities into business priorities."
 tags: ["management", "quality"]
 ---
 
