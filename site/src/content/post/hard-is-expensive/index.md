@@ -21,7 +21,7 @@ If you're a fan of [Continuous Delivery](https://continuousdelivery.com/), [DORA
 
 ## Difficult
 
-Unfortunately, speed is a lagging indicator. If you're a developer one of the most important signales you should pay attention to is how easy or hard something is to change. If you ask a developer to talk through the parts of their system that are difficult to work on they will be able to produce an absolute unit of a _list_ of stuff. They will be able to rank those challenges from hardest to easiest.
+Unfortunately, speed is a lagging indicator. If you're a developer one of the most important signals you should pay attention to is how easy or hard something is to change. If you ask a developer to talk through the parts of their system that are difficult to work on, they will be able to produce an absolute unit of a _list_ of stuff. They will be able to rank those challenges from hardest to easiest.
 
 If a system, subsystem or feature are hard to change, then **it takes longer to change them** and therefore it's **more expensive**. Lower quality systems are harder to change, therefore the cost of ownership for lower quality systems is higher.
 
@@ -29,6 +29,6 @@ If a system, subsystem or feature are hard to change, then **it takes longer to 
 
 **Expensive == Slow == Difficult**
 
-Development teams should be able to spend 20% of their time working on improving their systems by making it easier to work on them. Realize that you can justify this work by explaining that it's cost saving AND time saving simultaneously! 
+Development teams should be able to spend 20% of their time working on improving their systems by making it easier to work on them. You can justify this work by explaining that it's cost saving AND time saving simultaneously!
 
-If you're talking to the CFO explain that if you invest in making it easier to work on systems then the ROI for those systems will be higher. If you're talking to the Director of Product explain that investing in the internal quality of the system will make fast delivery a sustainable feature of the system.
+If you're talking to the CFO, explain that if you invest in making it easier to work on systems then the ROI for those systems will be higher. If you're talking to the Director of Product, explain that investing in the internal quality of the system will make fast delivery a sustainable feature of the system.
