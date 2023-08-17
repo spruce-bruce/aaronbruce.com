@@ -10,88 +10,75 @@ const allPosts = await getCollection("post");
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 const cactusTech: Array<{ title: string; desc: string; href: string }> = [
-	{
-		title: "Astro",
-		desc: "Build fast websites, faster.",
-		href: "https://astro.build",
-	},
-	{
-		title: "Astro Assets",
-		desc: "Built-in optimized asset support.",
-		href: "https://docs.astro.build/en/guides/assets/",
-	},
-	{
-		title: "Tailwind CSS",
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
-		href: "https://tailwindcss.com",
-	},
-	{
-		title: "Markdown",
-		desc: "Simple and easy-to-use markup language.",
-		href: "https://www.markdownguide.org/",
-	},
-	{
-		title: "MDX",
-		desc: "Markdown for the component era.",
-		href: "https://mdxjs.com/",
-	},
-	{
-		title: "Satori",
-		desc: "Generating png Open Graph images for blog posts.",
-		href: "https://github.com/vercel/satori",
-	},
-	{
-		title: "Pagefind",
-		desc: "A fully static search library.",
-		href: "https://pagefind.app/",
-	},
+  {
+    title: "Astro",
+    desc: "Build fast websites, faster.",
+    href: "https://astro.build",
+  },
+  {
+    title: "Astro Assets",
+    desc: "Built-in optimized asset support.",
+    href: "https://docs.astro.build/en/guides/assets/",
+  },
+  {
+    title: "Tailwind CSS",
+    desc: "Rapidly build modern websites without ever leaving your HTML.",
+    href: "https://tailwindcss.com",
+  },
+  {
+    title: "Markdown",
+    desc: "Simple and easy-to-use markup language.",
+    href: "https://www.markdownguide.org/",
+  },
+  {
+    title: "MDX",
+    desc: "Markdown for the component era.",
+    href: "https://mdxjs.com/",
+  },
+  {
+    title: "Satori",
+    desc: "Generating png Open Graph images for blog posts.",
+    href: "https://github.com/vercel/satori",
+  },
+  {
+    title: "Pagefind",
+    desc: "A fully static search library.",
+    href: "https://pagefind.app/",
+  },
 ];
 ---
 
 <PageLayout meta={{ title: "Home" }}>
-	<section>
-		<h1 class="title mb-6">HI</h1>
-		<p class="mb-4">
-			My name's Aaron, and I'm the Director of Engineering at <a href="https://synapsestudios.com/" class="cactus-link">Synapse Studios</a>. I've got {new Date().getFullYear() - 2008} years of experience, most of
-			which was as a practitioner. I'm a manager now, but I'm still a strong architect and coder.	
-		</p>
-		<p>
-			I'd like to write more, and so 
-			on a whim (inspired by <a href="https://tidyfirst.substack.com/p/publish-everything-pretty-much" class="cactus-link">Kent Beck</a>) I've set this site up to be a space to
-			publish stuff I write. My main goal is to write, publish, and share. I'm not going to try to write perfect high quality posts every time.
-		</p>
-		<SocialList />
-	</section>
-	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Posts</h2>
-		<ul class="space-y-4 sm:space-y-2">
-			{
-				allPostsByDate.map((p) => (
-					<li class="flex flex-col gap-x-2 sm:flex-row">
-						<PostPreview post={p} />
-					</li>
-				))
-			}
-		</ul>
-	</section>
-	<section class="mt-16">
-		<h2 class="title mb-4 text-xl">Technologies</h2>
-		<ul class="space-y-4 sm:space-y-2">
-			{
-				cactusTech.map(({ href, title, desc }) => (
-					<li>
-						<a
-							href={href}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="cactus-link inline-block"
-						>
-							{title}
-						</a>:
-						<p class="inline-block sm:mt-2">{desc}</p>
-					</li>
-				))
-			}
-		</ul>
-	</section>
+  <section>
+    <h1 class="title mb-6">HI</h1>
+    <p class="mb-4">
+      My name's Aaron, and I'm the Director of Engineering at <a
+        href="https://synapsestudios.com/"
+        class="cactus-link">Synapse Studios</a
+      >. I've got {new Date().getFullYear() - 2008} years of experience, most of
+      which was as a practitioner. I'm a manager now, but I'm still a strong
+      architect and coder.
+    </p>
+    <p>
+      I'd like to write more, and so on a whim (inspired by <a
+        href="https://tidyfirst.substack.com/p/publish-everything-pretty-much"
+        class="cactus-link">Kent Beck</a
+      >) I've set this site up to be a space to publish stuff I write. My main
+      goal is to write, publish, and share. I'm not going to try to write
+      perfect high quality posts every time.
+    </p>
+    <SocialList />
+  </section>
+  <section aria-label="Blog post list" class="mt-16">
+    <h2 class="title mb-4 text-xl">Posts</h2>
+    <ul class="space-y-4 sm:space-y-2">
+      {
+        allPostsByDate.map((p) => (
+          <li class="flex flex-col gap-x-2 sm:flex-row">
+            <PostPreview post={p} />
+          </li>
+        ))
+      }
+    </ul>
+  </section>
 </PageLayout>
