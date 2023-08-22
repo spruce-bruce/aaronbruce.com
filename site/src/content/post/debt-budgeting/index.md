@@ -3,6 +3,9 @@ title: "Engineering Leaders are Responsible for Quality"
 publishDate: "August 21, 2023"
 description: "Engineering leaders and developers are responsible for securing budget for quality improvements"
 tags: ["management", "quality"]
+coverImage:
+  src: "./header.jpg"
+  alt: "Bacon and eggs on a diner grill"
 ---
 ---
 "We can't fix it. They won't let us take the time to work on fixing things."
@@ -50,3 +53,7 @@ If a company is not reserving time to pay down tech debt or to work on other qua
 Software development is a complicated discipline, and engineers should be expected to take the time to build things well by default. In order to do that they need the support from engineering leadership organization wide.
 
 It may not literally true that engineering management is always to blame when a compnay isn't investing in the health of its software, but I always look there first when I'm working with organizations that don't.
+
+---
+Header photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/photos/IylDgTHzOUs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
