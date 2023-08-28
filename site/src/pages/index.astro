@@ -7,7 +7,9 @@ import { sortMDByDate } from "@/utils";
 
 const MAX_POSTS = 10;
 const allPosts = await getCollection("post");
-const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
+const allPostsByDate = sortMDByDate(allPosts)
+  .filter((p) => p.data.published !== false)
+  .slice(0, MAX_POSTS);
 ---
 
 <PageLayout meta={{ title: "Home" }}>
