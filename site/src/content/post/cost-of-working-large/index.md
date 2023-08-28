@@ -31,9 +31,6 @@ In this example all the conditions are the same, except the team has split each 
 Step through the example:
 <iframe src="https://link.excalidraw.com/p/readonly/nAPS9QXfrB36PiunTkUr" width="100%" height="400px" style="border: none;"></iframe>
 
----
-Header photo by <a href="https://unsplash.com/@petrebels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Petrebels</a> on <a href="https://unsplash.com/photos/JwMGy1h-JsY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
 ## In Closing
 
 Break work into small bits, and deliver each bit as soon as you can in order to reduce the cost associated with unfinished work. Smaller than you think. This is hardly revolutionary stuff. I first learned to treat unfinished work as inventory from Mary and Tom Poppendieck in their extremely important work **Implementing Lean Software Development**.
@@ -43,3 +40,6 @@ Break work into small bits, and deliver each bit as soon as you can in order to 
 <cite>Implementing Lean Software Development, 2006</cite>
 
 In future posts we can talk about why the cost isn't even the most important reason to break your product work into smaller bits. Or, you can read [Many More Much Smaller Steps](https://www.geepawhill.org/2021/09/29/many-more-much-smaller-steps-first-sketch/), which is better than whatever I'm likely to write anyway.
+
+---
+Header photo by <a href="https://unsplash.com/@petrebels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Petrebels</a> on <a href="https://unsplash.com/photos/JwMGy1h-JsY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
