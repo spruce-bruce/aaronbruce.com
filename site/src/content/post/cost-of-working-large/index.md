@@ -33,7 +33,7 @@ Step through the example:
 
 ## In Closing
 
-Break work into small bits, and deliver each bit as soon as you can in order to reduce the cost associated with unfinished work. Smaller than you think. This is hardly revolutionary stuff. I first learned to treat unfinished work as inventory from Mary and Tom Poppendieck in their extremely important work **Implementing Lean Software Development**.
+Break work into small bits, and deliver each bit as soon as you can, in order to reduce the cost associated with unfinished work. Smaller than you think. This is hardly revolutionary stuff. I first learned to treat unfinished work as inventory from Mary and Tom Poppendieck in their extremely important work **Implementing Lean Software Development**.
 
 > The inventory of software development is partially done work. The objective is to move from the start of work on a system to integrated, tested, documented deployable code in a single, rapid flow. The only way to accomplish this is to divide work into small batches, or iterations.
 
