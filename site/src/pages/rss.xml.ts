@@ -9,11 +9,13 @@ export const get = async () => {
 		title: siteConfig.title,
 		description: siteConfig.description,
 		site: import.meta.env.SITE,
-		items: posts.map((post) => ({
-			title: post.data.title,
-			description: post.data.description,
-			pubDate: post.data.publishDate,
-			link: `posts/${post.slug}`,
-		})),
+		items: posts
+			.filter((p) => p.data.published !== false)
+			.map((post) => ({
+				title: post.data.title,
+				description: post.data.description,
+				pubDate: post.data.publishDate,
+				link: `posts/${post.slug}`,
+			})),
 	});
 };
