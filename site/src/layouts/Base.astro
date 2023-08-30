@@ -17,7 +17,6 @@ const {
 } = Astro.props;
 
 const GA = import.meta.env.PROD ? "G-2RQ3GED7YE" : "G-3GRQV3D6G7";
-console.log(GA);
 ---
 
 <html lang={siteConfig.lang}>
@@ -28,7 +27,7 @@ console.log(GA);
       ogImage={ogImage}
       articleDate={articleDate}
     />
-    <GoogleAnalytics id="G-2RQ3GED7YE" />
+    <GoogleAnalytics id={GA} />
   </head>
   <body>
     <ThemeProvider />
