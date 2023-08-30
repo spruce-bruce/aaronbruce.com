@@ -7,7 +7,9 @@ coverImage:
   src: "./header.jpg"
   alt: "Bacon and eggs on a diner grill"
 ---
+
 ---
+
 "We can't fix it. They won't let us take the time to work on fixing things."
 
 It's a tale as old as time. Engineers feel chained to their creaky, aging systems, and feel helpless to do anything about it. I have a great deal of sympathy for the devs fighting in the trenches, shaking their fists at the business that never listens.
@@ -32,7 +34,7 @@ One of the primary responsibilities for engineering leaders is to advocate for t
 
 A cook doesn't ask for permission to keep their station clean during their shift, nor do they ask permission to clean their station up after their shift. Like all metaphors it's imperfect, but software developers should keep things clean by default. They should adopt the boyscout rule and leave code cleaner than how they found it.
 
-One common problem I see is developers offering a low quality option to stakeholders. That conversation will go like this: 
+One common problem I see is developers offering a low quality option to stakeholders. That conversation will go like this:
 
 "Well we can get that done in a day, but it'll force us to reuse this component we're trying to decomission. If we do it right it'll take longer."
 
@@ -55,5 +57,5 @@ Software development is a complicated discipline, and engineers should be expect
 It may not literally true that engineering management is always to blame when a compnay isn't investing in the health of its software, but I always look there first when I'm working with organizations that don't.
 
 ---
+
 Header photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/photos/IylDgTHzOUs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  

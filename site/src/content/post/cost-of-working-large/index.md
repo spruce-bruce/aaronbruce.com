@@ -7,6 +7,7 @@ coverImage:
   src: "./header.jpg"
   alt: "Forklift parked in a warehouse in front of shelves full of inventory."
 ---
+
 ---
 
 In software and product engineering working in small steps is always better. It's unfortunately common that the teams I encounter are rarely very effective at breaking down their work. For this post I want to focus on just one reason that working large is bad: unfinished work costs money to produce, but doesn't provide any value until it's finished and in the hands of users.
@@ -22,6 +23,7 @@ Inventory is exacly the right way to think about unfinished work in software. Th
 To illustrate this effect, imagine a team that works on ideas for their product in 4 sequential stages before they're completed. Those stages are Analysis, Design, Development and Testing. For the sake of simplicity we'll say that every stage costs the same per day, and set that cost at $1,000. We'll also say that each stage takes two days. If the team is fully utilized then we'll have **$20,000** tied up in work that isn't yet earning any kind of return. Assuming we remain fully utilized we'll always have **$20,000** tied up in unfinished work.
 
 Step through the example:
+
 <iframe src="https://link.excalidraw.com/p/readonly/22kzu6KZkpvbZdKRN2Wn" width="100%" height="400px" style="border: none;"></iframe>
 
 ## Example 2: Same work, $10,000
@@ -29,6 +31,7 @@ Step through the example:
 In this example all the conditions are the same, except the team has split each work item into two equal parts. As a result, each work item now only spends a day in each stage of the process. _Now_ when the team is fully utilized we'll only ever have **$10,000** tied up in unfinished work.
 
 Step through the example:
+
 <iframe src="https://link.excalidraw.com/p/readonly/nAPS9QXfrB36PiunTkUr" width="100%" height="400px" style="border: none;"></iframe>
 
 ## In Closing
@@ -42,4 +45,5 @@ Break work into small bits, and deliver each bit as soon as you can, in order to
 In future posts we can talk about why the cost isn't even the most important reason to break your product work into smaller bits. Or, you can read [Many More Much Smaller Steps](https://www.geepawhill.org/2021/09/29/many-more-much-smaller-steps-first-sketch/), which is better than whatever I'm likely to write anyway.
 
 ---
+
 Header photo by <a href="https://unsplash.com/@petrebels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Petrebels</a> on <a href="https://unsplash.com/photos/JwMGy1h-JsY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

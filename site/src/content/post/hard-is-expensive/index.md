@@ -4,7 +4,9 @@ publishDate: "August 16, 2023"
 description: "Use this mental model of software systems to translate quality priorities into business priorities."
 tags: ["management", "quality"]
 ---
+
 ---
+
 Expensive == Slow == Difficult. These are all proxies for one another. Think of them as synonyms almost. Your system is expensive if it's difficult to work on. A feature is expensive if it takes a long time to build.
 
 It might not feel like a major revelation, and it shouldn't be, but I advise new engineering leaders to adopt this model to help them communicate with their management, and I use this model when I speak with executives to explain investments in non-functional qualities of systems.
@@ -15,7 +17,7 @@ Our biggest cost in software engineering is almost always the salaries of the pe
 
 ## Slow
 
-So if paying developers is costly, then developers' time is valuable. If something takes longer to do, then it's more expensive.  That's probably fairly obvious, but there's an important next logical step that I don't often see made: low quality systems cost more.
+So if paying developers is costly, then developers' time is valuable. If something takes longer to do, then it's more expensive. That's probably fairly obvious, but there's an important next logical step that I don't often see made: low quality systems cost more.
 
 If you're a fan of [Continuous Delivery](https://continuousdelivery.com/), [DORA](https://dora.dev), or [Dave Farley](https://www.youtube.com/@ContinuousDelivery) you probably know what I'm getting at already. It takes longer to modify systems and modules that are poorly designed. To use a phrase from [Martin Fowler](https://martinfowler.com/bliki/TechnicalDebt.html), Healthy systems accumulate "deficiencies in internal quality" over time that make changes to those systems slower. Worse yet, many systems are designed poorly from the very beginning.
 

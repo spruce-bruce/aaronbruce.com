@@ -5,9 +5,11 @@ description: "Sleep easier at night with more smaller changes. Many more. More t
 tags: ["CI"]
 coverImage:
   src: "./header.jpg"
-  alt: "Text in a book that reads \"very tiny\" enlarged by a magnifying glass."
+  alt: 'Text in a book that reads "very tiny" enlarged by a magnifying glass.'
 ---
+
 ---
+
 Stable systems fail less frequently, with less severity, and are easier to fix when they do fail. Most production failures are caused by changes. Making more, smaller, changes to production is the best way to improve stability.
 
 ## How Small
@@ -24,7 +26,7 @@ I want you to stop asking **"should this be any smaller?"** and start asking **"
 ## Reduce Frequency of Failure
 
 When you're working small and pushing frequently there's a funny consequence. Your change failure rate goes down
-simply because you're making more changes. Pump up the denominator to improve your failure rate! This is a joke, 
+simply because you're making more changes. Pump up the denominator to improve your failure rate! This is a joke,
 but it is a real consequence of more frequent changes, your failure rate will go down simply because of the math.
 
 But working small will reduce your overall frequency of failure, too, because working small and deploying frequently
@@ -45,10 +47,10 @@ Unfortunately, it's possible that when it comes to failure the whole may be grea
 ## Easier to Fix
 
 Remember, [Hard Means Expensive](/posts/hard-is-expensive/). When they fail, small changes produce failures that
-are easier to resolve. Easier means faster. 
+are easier to resolve. Easier means faster.
 
 When a production failure occurs, more often than not, the hard part is just figuring out _what broke_. If the
-last change was tiny, lets say 10 lines of code, then answering "what broke?" is often times trivial. You can 
+last change was tiny, lets say 10 lines of code, then answering "what broke?" is often times trivial. You can
 read a diff that small and, more likely than not, immediately find your culprit and get to work fixing it. And
 since the blast radius is so small the fix will probably be simple and fast.
 
@@ -65,5 +67,5 @@ some reason, and a lot of people assure me that "no this change needed to be thi
 Work smaller to improve system stability!
 
 ---
+
 Header photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/photos/eIlJ2CtQezU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  

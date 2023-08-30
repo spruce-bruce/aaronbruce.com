@@ -8,6 +8,7 @@ published: false
 #   src: "./header.jpg"
 #   alt: "Text in a book that reads \"very tiny\" enlarged by a magnifying glass."
 ---
+
 ---
 
 A post describing how to use empirical forecasting methods to predict delivery without wasting time on estimating.

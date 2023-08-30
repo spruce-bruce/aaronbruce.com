@@ -64,6 +64,7 @@ include:
 Importantly, you can also exclude code from these inspections. You can add a file to an excludes block in your qodana.yml, or for one off exclusions you can use their inline `noinspection` comment.
 
 Excluding a path for a specific inspection:
+
 ```yaml
 exclude:
   - name: JSUnusedLocalSymbols
@@ -72,12 +73,13 @@ exclude:
 ```
 
 Excluding a class from a specific inspection:
+
 ```ts
 // noinspection JSUnusedLocalSymbols
 export class Example {
-    private constructor() {
-        /* noop */
-    }
+	private constructor() {
+		/* noop */
+	}
 }
 ```
 

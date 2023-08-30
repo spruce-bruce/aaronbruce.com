@@ -7,7 +7,9 @@ coverImage:
   src: "./header.jpg"
   alt: "A guy holding a laptop up yelling at it"
 ---
+
 ---
+
 I love automated testing, and I'm a very big proponent of TDD with unit tests, but I have a couple nits to pick with my fellow test automation proponents. The claim that automated testing and TDD forces you to produce better designed systems isn't strictly true, and I think the claim sans-nuance does some damage to the movement.
 
 ## The Claim: Testing Improves Design
@@ -30,14 +32,14 @@ In my work I encounter testing skeptics all of the time, and I find that their e
 
 The message I had received was "testing improves quality" and "this is how you do testing". There wasn't much room for nuance, and when it didn't deliver the results I was promised, it was easy to be skeptical of testing. I had tried it and verified irrefutably that I didn't get positve outcomes. It was 4 or so more years before I tried it again, this time after having done a considerable amount of reading on the subject.
 
-Armed with the proper nuance, I had learned to read the signals. 
+Armed with the proper nuance, I had learned to read the signals.
 
-- If testing your code is hard it means your code needs to be factored better. Stop what you're doing and fix the design so that testing is easy again. 
-- Mocking is usually a smell. 
+- If testing your code is hard it means your code needs to be factored better. Stop what you're doing and fix the design so that testing is easy again.
+- Mocking is usually a smell.
 - And above all else, like anything else it takes time and practice to be good at testing.
 
 TDD is a design tool, and it's challenging to master good design. Therefore, it's challenging to master good testing.
 
 ---
+
 Header photo by <a href="https://unsplash.com/@bermixstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bermix Studio</a> on <a href="https://unsplash.com/photos/wbc8MlFbuZU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  

@@ -4,6 +4,7 @@ publishDate: "August 30, 2023"
 description: "Explore a real world example of splitting up work into bits. I take a proposal for adding notifications and break it down."
 tags: ["work small"]
 ---
+
 ---
 
 Learning to break down work can be challenging for teams, so I like to teach this skill with examples that I come across in my work. If you're setting out to improve this skill it's important to note that it is inherently a technical task and best done by the developers who will do the work. Non-technical POs and PMs can never expect to be proficient in this by themselves. You will find that you can get the best results when the product team members do reamin involved and collaborative in breaking down the work, though.
@@ -36,7 +37,7 @@ What I advised them to do is to just pick one event and one channel (document re
 
 ## Final Thoughts
 
-So how are you supposed to know ahead of time what to work on? 
+So how are you supposed to know ahead of time what to work on?
 
 You have to get the right people in the room early enough. Developers should be involved in the planning phases for exatly this reason. Only they can identify the best seams to break down work.
 
