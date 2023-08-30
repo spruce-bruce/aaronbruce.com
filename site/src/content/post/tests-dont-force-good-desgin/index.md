@@ -12,7 +12,7 @@ I love automated testing, and I'm a very big proponent of TDD with unit tests, b
 
 ## The Claim: Testing Improves Design
 
-The claim follows a logic like this: in order to write automated tests, your systems will need to be designed to be testable. All of the design techniques and principles you'll need to use to make your code testable are the same techniques and principles you'd use to desing your system to have low coupling and generally good separation of concerns.
+The claim follows a logic like this: in order to write automated tests, your systems will need to be designed to be testable. All of the design techniques and principles you'll need to use to make your code testable are the same techniques and principles you'd use to design your system to have low coupling and generally good separation of concerns.
 
 TDD is a design tool, and it's the best way to create rapid feedback loops about the quality of your design. I do think that TDD is the best tool we have to help us produce well designed, loosely coupled system.
 
