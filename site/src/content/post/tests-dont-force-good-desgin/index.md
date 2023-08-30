@@ -18,7 +18,7 @@ TDD is a design tool, and it's the best way to create rapid feedback loops about
 
 ## The Problem
 
-The problem with the claim is simply the fact that you don't have to write "testable code" in order to test your code. Especially in languages like javascript you can do a lot with mocking frameworks and dependency orchestration to make bad code work. Testing doesn't _force_ good design, it enables it, and it only works if you know how to detect the signals that your code is poorly designed.
+The problem with the claim is simply the fact that you don't have to write "testable code" in order to test your code. Especially in languages like javascript you can do a lot with mocking frameworks and dependency orchestration hacking to make bad code work. Testing doesn't _force_ good design, it enables it, and it only works if you know how to detect the signals when your code is poorly designed.
 
 I experienced this first hand when I first started learning to do TDD with unit tests. We had a badly designed system and we adopted a unit testing strategy that said every class needed to be tested independently from every other class. Testing this system was _hard_. It was a lot of effort with mocks and dependency wrangling to exercise our classes, and it produced brittle tests that never added any value in terms of the quality of the overall system.
 
