@@ -15,7 +15,7 @@ Newsletters are good, actually. Some of the newsletters I'm subscribed to will o
 - [Performance Calibrations at Tech Companies: Part 1](https://newsletter.pragmaticengineer.com/p/performance-calibrations?utm_source=substack&utm_medium=email) by Gergely Orosz. You have to be a paid subscriber for this one.
 - [Performance Management the Trading Card Way](https://peter.gillardmoss.me.uk/blog/2023/08/06/performance-management-the-trading-card-way/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20211&utm_medium=email) by Peter Gillard-Moss. A novel idea about a multi-dimensional "choose your own adventure" skills model.
 
-I'm a subscriber to Kent Beck's "Tidy First?" newsletter, and this morning he published a summary of some of the writing he's done on the subject. Apparently he has a whole [separate newsletter](https://tidyfirst.substack.com/s/incentives?utm_source=substack&utm_medium=menu) on the subject. I'm going to repost a snippet from that email ver batim:
+I'm a subscriber to Kent Beck's "Tidy First?" newsletter, and this morning he published a summary of some of the writing he's done on the subject. Apparently he has a whole [separate newsletter](https://tidyfirst.substack.com/s/incentives?utm_source=substack&utm_medium=menu) on just incentives. I'm going to repost a snippet from that email ver batim:
 
 - [Performance Review Incentives](https://tidyfirst.substack.com/p/performance-review-incentives?utm_source=substack&utm_medium=email) Performance review as commonly practiced profoundly disaligns individuals from business & personal goals.
 
