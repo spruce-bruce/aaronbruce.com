@@ -2,7 +2,7 @@
 title: "Reading List: Performance and Incentives"
 publishDate: "September 7, 2023"
 description: "Here's what I'm reading on the subject of performance management, compensation and incentives"
-tags: ["management"]
+tags: ["management", "performance management"]
 ---
 ---
 In the spirit of learning in public, I want to share some of the reading I've done and am doing on performance management, compensation and incentives. When you make the shift from engineer to manager this is an area that you suddenly have to start learning about, and I recommend taking it seriously. Start by learning from your predecessors, but you're going to need to form your own thoughts an opinions on this subject, and reading is the _best_ tool for the job.
