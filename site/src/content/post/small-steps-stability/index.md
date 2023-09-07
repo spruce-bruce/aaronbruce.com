@@ -2,7 +2,7 @@
 title: "Improve System Stability With Small Steps"
 publishDate: "August 17, 2023"
 description: "Sleep easier at night with more smaller changes. Many more. More than you think. And small. Smaller than you think."
-tags: ["CI"]
+tags: ["CI", "work small"]
 coverImage:
   src: "./header.jpg"
   alt: 'Text in a book that reads "very tiny" enlarged by a magnifying glass.'

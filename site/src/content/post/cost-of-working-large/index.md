@@ -2,7 +2,7 @@
 title: "The Cost of Working Large"
 publishDate: "August 27, 2023"
 description: "Working on large features ties up capital in unfinished work. Break down work to reduce risk."
-tags: ["management"]
+tags: ["management", "work small"]
 coverImage:
   src: "./header.jpg"
   alt: "Forklift parked in a warehouse in front of shelves full of inventory."
