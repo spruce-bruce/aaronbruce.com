@@ -3,9 +3,9 @@ title: "What is a Unit Test"
 publishDate: "September 15, 2023"
 description: "It seems like no two people define unit testing the same, but shared understanding is necessary for productive discourse"
 tags: ["testing"]
-# coverImage:
-#   src: "./header.jpg"
-#   alt: "A pile of messy binders"
+coverImage:
+  src: "./header.jpg"
+  alt: "A screaming kid on the floor holding his tummy while another kid stands over him."
 ---
 
 ---
@@ -57,3 +57,7 @@ Whatever you call them, all 3 of the kinds of tests I documented in this post ar
 Some further reading: 
 - [Martin Fowler's piece on the subject](https://martinfowler.com/articles/2021-test-shapes.html)
 - [My post about test automation strategy](https://synapsestudios.com/learn/test-automation-strategy/)
+
+---
+Header photo by <a href="https://unsplash.com/@yangmiao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">yang miao</a> on <a href="https://unsplash.com/photos/Z5Lsb65XoCE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
