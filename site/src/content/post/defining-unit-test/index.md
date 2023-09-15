@@ -10,9 +10,9 @@ coverImage:
 
 ---
 
-No topic sparks debate quite like the topic of testing. We all have our preferred techniques and often quite strong opinions about the Right Way to test our code, and as a result the subject of test automation can get pretty heated and degrade into uselessness.
+We all have our preferred testing techniques and often quite strong opinions about the Right Way to test our code, and as a result the subject of test automation can get pretty heated and degrade into uselessness.
 
-One recurring issue I've noticed in these debates is that people rarely have a shared understanding about what they're discussing. You'll find two people debating the value of unit tests who are each clearly talking about different kinds of tests. In an attempt to help folks online, and in my own work, here are the definitions of "unit testing" that I've encountered.
+One recurring issue I've noticed in these debates is that people rarely have a shared understanding about what they're discussing. You'll find two people debating the value of unit tests who are each talking about different kinds of tests. In an attempt to help folks online, and in my own work, here are the definitions of "unit testing" that I've encountered.
 
 ## Unit Tests Test the Smallest Unit
 
