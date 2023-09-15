@@ -50,9 +50,9 @@ I find that people who only do this kind of testing will be writing their tests 
 
 ## Closing Thoughts
 
-Hopefully, your takeaway from this piece is simply that there's a huge amount of variation in the way people define terms in our industry. If you want to have a useful discussion with folks on the subject of unit testing you first have to determine which definition of unit testing they subscribe to.
+Hopefully, your takeaway from this piece is simply that there's a huge amount of variation in the way people define terms in our industry. If you want to have a useful discussion with folks on the subject of unit testing you first have to determine what they think "unit test" even means.
 
-One important closing thought I want to share is that whatever you call them, all 3 of the kinds of tests I documented in this post are useful. A well tested codebase should probably be using a testing strategy that incorporates all three of these test types to some degree.
+Whatever you call them, all 3 of the kinds of tests I documented in this post are useful. A well tested codebase should probably be using a testing strategy that incorporates all three of these test types to some degree.
 
 Some further reading: 
 - [Martin Fowler's piece on the subject](https://martinfowler.com/articles/2021-test-shapes.html)
