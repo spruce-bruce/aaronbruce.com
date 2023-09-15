@@ -10,7 +10,7 @@ tags: ["testing"]
 
 ---
 
-No topic sparks debate quite like the topic of testing. We all have our preferred techniques and often quite strong opinions about the Right Way to test our code, and as a result the subject of test automation can get pretty heated online and in person.
+No topic sparks debate quite like the topic of testing. We all have our preferred techniques and often quite strong opinions about the Right Way to test our code, and as a result the subject of test automation can get pretty heated and degrade into uselessness.
 
 One recurring issue I've noticed in these debates is that people rarely have a shared understanding about what they're discussing. You'll find two people debating the value of unit tests who are each clearly talking about different kinds of tests. In an attempt to help folks online, and in my own work, here are the definitions of "unit testing" that I've encountered.
 
@@ -38,9 +38,7 @@ In his book "Working Effectively With Legacy Code" Michael Feathers proposed thi
 
 This is how I prefer to define unit tests. With this method of testing you don't worry so much about isolating classes or functions from one another, but instead you give yourself permission to test them in concert. Some unit tests are still very small, but some unit tests cover a couple classes and how they interact together.
 
-This definition is troublesome, though, because it defines unit tests by what they _don't do_, and it leads to some debate. These we have in memory databases and other methods to make tests that DO depend on the network or a database much faster. Do those get to qualify as unit tests now?
-
-Personally, my answer is "no", but others will disagree.
+This definition is troublesome, though, because it defines unit tests by what they _don't do_, and it leads to some debate. These days we have in memory databases and other methods to make tests that DO depend on the network or a database much faster. Do those get to qualify as unit tests now? Personally, my answer is "no", but others will disagree.
 
 ## Unit tests test a single REST endpoint
 
