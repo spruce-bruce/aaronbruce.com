@@ -20,7 +20,7 @@ Unit tests are strictly about one class or one function. With this strict defini
 
 At its best this puts pressure on the designers of systems to prefer pure functions with immutable data structures. At its worst this method of testing requires a significant amount of work to mock dependencies in order to purely test tiny isolated units.
 
-I often find that the folks to prefer to use integration tests over unit tests are using this "very small" definition of unit test.
+I often find that the folks who prefer to use integration tests over unit tests are using this "very small" definition of unit test.
 
 ## Unit Tests are Fast
 
